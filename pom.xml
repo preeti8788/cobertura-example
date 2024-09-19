@@ -74,4 +74,18 @@
                         </goals>
                     </execution>
                 </executions>
-            </
+            </plugin>
+        </plugins>
+    </build>
+
+    <!-- Reporting section for Cobertura -->
+    <reporting>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>cobertura-maven-plugin</artifactId>
+                <version>${cobertura.version}</version>
+            </plugin>
+        </plugins>
+    </reporting>
+</project>
